@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    margin: 10px 0px;
+    width: 100%;
+    background-color:black;
+    border-radius: 50px;
+    padding: 0px 10px;
+}  
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:8px 0px;
+   
+   
+}
+.logo img{
+    border-radius: 30px;
+}
+nav{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+ nav a{
+    color: aliceblue;
+    text-decoration: none;
+    text-transform:capitalize;
+    font-size: 28px;
+    font-family:'Times New Roman', Times, serif ;
+    padding: 10px 15px;
+}
+nav a:hover{
+    background-color:white;
+    color:black;
+    border-radius: 10px; 
+}
+.herosection{
+    margin-top: 30px;
+    min-height: 750px;
+    background-color: brown;
+    background-image: url(../class22/image/gym2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    
+
+}
+h6{
+    padding-top: 50px;
+    color: #25b015;
+    font-size: 30px;
+}
+h1{
+    padding: 50px 10px ;
+    
+    font-family: "Roboto", sans-serif;
+    color: #FFFFFF;
+    font-size: 60px;
+   
+}
+p{
+    font-size: 30px;
+    padding: 20px 0px;
+    color: #FFFFFF;
+}
+ .box{
+    background-color: #FFFFFF;
+    color: black;
+    text-decoration: none;
+    font-size: 28px;
+    border-radius: 8px;
+    padding: 12px 30px;
+    display: inline-block;
+    font-family: 'Times New Roman', serif;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.box:hover{
+    background-color: black;
+    color: white;
+}
