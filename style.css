@@ -237,7 +237,6 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    justify-items: center;
     align-items: center;
     gap: 20px;
 }
@@ -258,4 +257,52 @@ header{
     font-size: 20px;
     color: white;
     text-transform: uppercase;
+}
+#protofoli_sec{
+    min-width: 800px;
+    background-color:rgb(231, 226, 226) ;
+    padding: 30px;
+}
+.pro_heading h1{
+            text-align: center;
+            font-size: 40px;
+            text-transform: uppercase;
+            font-weight: 800px;
+            padding: 10px;
+
+}
+.pro_heading p{
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+#protofoli_sec .container{
+    padding: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px 40px;
+    margin-top: 10px;
+}
+.port_box{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+.port_box img{
+    max-height:300px ;
+    width: 400px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.port_box p{
+    font-size: 18px;
+    padding: 6px 10px 20px;
+    transition:  all 1.1 ease;
+}
+.port_box:hover{
+    transform: scale(1.1);
 }
